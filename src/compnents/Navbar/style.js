@@ -7,14 +7,20 @@ import styled from "styled-components";
  justify-content:center;
 
  `;
+ const Main = styled.div`
+ display:flex; 
+ flex-direction:column;
+ justify-content:center;
+ background: var(--colorPrimary);  
+ `;
  const Warapper=styled.div`
  display:flex; 
  align-items:center;
  justify-content:space-between ;
- background: var(--colorPrimary);  
  color: #ffff;
  padding: var(--padding);
  height: 64px; 
+ width:100%
 max-width:1440px;
  font-size:16px;
  `;
@@ -36,4 +42,4 @@ padding:0 32px;
 color:#ffff
 `
 
- export {Container,Warapper,Section,Logo, Link}
+ export {Container,Warapper,Section,Logo, Link , Main}
