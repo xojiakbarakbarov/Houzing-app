@@ -7,5 +7,17 @@ const Container = styled.div`
   padding-bottom: 10px;
   gap: 20px;
 `;
+const MenuWrapper = styled.div`
+  gap: 20px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+`;
 
-export { Container };
+const Section = styled.div`
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+`;
+
+export { Container, MenuWrapper, Section };

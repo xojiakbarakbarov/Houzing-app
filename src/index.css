@@ -20,3 +20,31 @@ body{
      --padding:0 130px
 
 }
+
+.subTitle{
+    color: var(--Color-2, #0D263B);
+    
+        /* Paragraph/Medium/Semibold */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 150% */  
+}
+
+
+.title{
+color: var(--text-1, #0D263B);
+    text-align: center;
+
+    /* Heading/H4/Semibold/Desktop */
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    /* 128.571% */
+    letter-spacing: -0.56px;
+      
+}
